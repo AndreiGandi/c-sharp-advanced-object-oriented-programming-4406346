@@ -2,7 +2,7 @@
 // init-only modifier
 
 public class Employee {
-    private int _id;
+    private readonly int _id;
 
     public Employee() {}
 
@@ -16,7 +16,7 @@ public class Employee {
     // The init keyword means that a value is assigned only during construction
     public int ID {
         get => _id;
-        set => _id = value;
+        init => _id = value;
     }
     public string? Department {
         get; set;
