@@ -2,7 +2,7 @@
 // Defining abstract classes
 
 // Declare an abstract base class to prevent direct instantiation
-public class Vehicle
+public abstract class Vehicle
 {
     public Vehicle() {}
 
